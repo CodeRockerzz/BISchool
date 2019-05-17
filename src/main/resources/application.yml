@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: student-test
+  datasource:
+    url: jdbc:mysql://localhost:3306/springdatajpa
+    username: hbstudent
+    password: hbstudent
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    hibernate:
+        ddlAuto: update
+        
+        
+    
